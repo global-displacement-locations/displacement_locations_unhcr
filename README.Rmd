@@ -1,0 +1,122 @@
+---
+title: "Displacement Locations UNHCR Data"
+output:
+  md_document:
+    variant: markdown_github
+always_allow_html: true
+subtitle: Data from Zhou and Shaver APSR 2021
+author: ' '
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(tidy = TRUE, 
+               echo = FALSE, 
+               warning = FALSE, 
+               message = FALSE)
+```
+
+```{r load data}
+
+## packages
+require(knitr)
+require(tidyverse) 
+require(patchwork)
+require(sf) 
+require(rgdal)
+require(maps)
+require(mapdata)
+require(maptools)
+require(ggmap)
+
+##### Load displacement locations data #####
+allsites <- read.csv("displacement_locations_unhcr.csv", header = TRUE) 
+
+## ggplot theme
+yy_theme <- function(){
+  theme(panel.background = element_blank(),
+          legend.title = element_blank(), 
+          #plot.title = element_text(size = 10),
+          panel.border = element_rect(colour = "gray50", fill=NA, size=.11),
+          legend.position = 'none')
+}
+
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+# Dataset of Displacement Locations (UNHCR)
+
+This repository contains the data of displacement (IDP, refugee, returnee) locations as featured in:
+
+Zhou, Yang-Yang and Andrew Shaver. (2021). [Reexamining the Effect of Refugees on Civil Conflict: A Global Subnational Analysis.](https://doi.org/10.1017/S0003055421000502) American Political Science Review, 1-22. doi:10.1017/S0003055421000502
+
+
+## Overview
+
+**displacement_locations_unhcr.csv** is a global dataset from the UNHCR Field Information and Coordination Support Section (FICSS). This dataset encompasses the universe of refugee, returnee, IDP, and asylum seeker locations that the UNHCR is aware of (even if they are not actively working in these locations), and it includes historic and currently open sites. The earliest recorded locations are from 1966, and the data was last updated by FICSS on January 6, 2020. 
+
+To construct these data, UNHCR country teams and field staff report the location of any known displaced communities to FICSS.
+
+With the help of a team of research assistants, we manually validated and corrected refugee and IDP locations that were open during our study period from 1990--2018. Outside of this time span, we have not made corrections.
+
+Thus, we share this dataset on Github not only to provide researchers with global data on historic and current displacement locations, but also to make this a "living dataset," where experts can send us corrections and where the most updated version is always publicly available. 
+
+## Descriptives
+
+**displacement_locations_unhcr.csv** has `r nrow(allsites)` observations. 
+
+The table and map below show the displacement locations by migration type and whether they are open or closed as of late 2019/early 2020.
+
+```{r tab_type, eval=TRUE, results='asis'}
+
+num_total <- allsites %>%
+  group_by(type) %>%
+  count(name = "N") %>%
+  drop_na()
+num_status <- allsites %>%
+  group_by(type, status) %>%
+  count() %>%
+  drop_na() %>%
+  mutate(status = case_when(status == 0~"Closed", status == 1~"Open")) %>%
+  pivot_wider(names_from = status, values_from = n, values_fill = 0)
+
+left_join(num_total, num_status) %>%
+  rename(Type = type) %>%
+  kable(caption="Number of locations by type", "pipe") 
+
+
+
+```
+
+```{r map_type, eval=TRUE, fig.width = 10, fig.height = 6}
+
+allsites.shp <- st_as_sf(x = allsites %>% drop_na(POINT_X, POINT_Y), 
+                        coords = c("POINT_X", "POINT_Y"),
+                        crs = "+proj=longlat +ellps=WGS84 +datum=WGS84")
+
+WorldData <- map_data('world') %>% filter(region != "Antarctica") %>% fortify
+
+ggplot() +
+  geom_map(data = WorldData, map = WorldData,
+                  aes(x = long, y = lat, group = group, map_id=region),
+                  fill = "white", colour = "gray20", size=0.5) +
+  geom_sf(data = allsites.shp, aes(colour = type)) +
+  theme_classic() + 
+  scale_colour_manual(values = cbPalette) + 
+  labs(colour = "Location Type") + 
+  theme(legend.position = "bottom")
+
+```
+
+
+
+## Codebook
+
+
+## Submit a correction to the data
+
+
+## Acknowledgements 
+
+We are indebted to experts from the United Nations High Commissioner for Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and staff members of the Field Information and Coordination Section (FICSS) for providing data and guidance.
+
