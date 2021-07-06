@@ -58,6 +58,45 @@ Number of locations by type
 Codebook
 --------
 
+-   *pcode*: location ID
+-   *Country*: country of the location
+-   *name*: name of the location
+-   *name_alt*: alternative name of the location if one exists
+-   *loc_type*: type of location – Asylum Seeker Accommodation, Asylum
+    Seeker Centre, Asylum Seeker Location, Asylum Seeker Settlement, IDP
+    Accommodation, IDP Camp, IDP Center, IDP Dispersed, IDP Location,
+    IDP Settlement, IDP Urban location, Refugee Accommodation, Refugee
+    Camp, Refugee Center, Refugee Dispersed, Refugee Location, Refugee
+    Settlement, Refugee Urban location, Returnee Accommodation, Returnee
+    Camp, Returnee Center, Returnee Location, Returnee Settlement,
+    Unknown. Most types are self explanatory, but according to our
+    discussions with UNHCR staff, whether a location is designed as a
+    “camp” and “settlement” is generally due to host country government
+    preferences.
+-   *loc_subtype*: some locations have additional designation types –
+    Aliens Police Detention Facility, Asylum Integration Center (only
+    for recognized refugees), Border Guard/Police Detention Facility,
+    CHT (Centres d’Hebergement Temporaire / temporary reception centre),
+    Home for Separated Children Seeking Asylum, Open reception facility
+    for asylum-seekers, Open Shelters for Persons Authorized to Stay
+    (Subsidiary form of protection).
+-   *createdate*: date the location was created. Many dates are
+    1/1/Year, which suggest the exact date is unknown but it was within
+    that year.
+-   *closedate*: if the location is closed, the date of closure
+-   *updatedate*: when this data entry was updated, typically by UNHCR
+    FICSS staff
+-   *source*: source of the data
+-   *unhcr_assist*: whether UNHCR has provided assistance to the
+    location
+-   *status*: 0 if closed, 1 if open as of the updatedate
+-   *POINT_X*: longitude
+-   *POINT_Y*: latitude
+-   *adjusted_vars*: if anyone has made additional adjustments to the
+    data from the UNHCR. E.g. observations that we (Zhou and Shaver)
+    have made changes to.
+-   *type*: Asylum seeker, IDP, Returnee, Refugee, or Other
+
 Submit a correction to the data
 -------------------------------
 
