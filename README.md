@@ -100,6 +100,28 @@ Codebook
 Submit a correction to the data
 -------------------------------
 
+If you would like to submit a correction to the data, go to Issues \>
+New Issue \> Data Entry and submit a report to help us improve the
+dataset. Please make sure to send us a source (e.g. a report from the
+UNHCR, IOM, etc.) so that we can validate the correction and for
+transparency.
+
+Coming Soon
+-----------
+
+We will continue to publicly release related data when they are ready.
+Here’s what we’re working on now:
+
+1.  *Refugee Location-Year Population data*: for each refugee location
+    (e.g. refugee camp, settlement), this dataset will also include
+    total population by year along with population disaggregated by
+    gender and origin country.
+
+2.  *Uganda refugee settlement shapefiles and population data*: for
+    Uganda, shapefiles of refugee settlements over time, along with
+    their total population figures for election years, along with
+    population disaggregated by origin country.
+
 Acknowledgements
 ----------------
 
