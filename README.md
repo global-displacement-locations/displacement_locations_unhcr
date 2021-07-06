@@ -10,6 +10,9 @@ Analysis.](https://doi.org/10.1017/S0003055421000502) American Political
 Science Review, 1-22.
 <a href="doi:10.1017/S0003055421000502" class="uri">doi:10.1017/S0003055421000502</a>
 
+If using this dataset, please cite this paper and acknowledge the UNHCR
+Field Information and Coordination Support Section (FICSS).
+
 Overview
 --------
 
@@ -112,12 +115,12 @@ Coming Soon
 We will continue to publicly release related data when they are ready.
 Here’s what we’re working on now:
 
-1.  *Refugee Location-Year Population data*: for each refugee location
-    (e.g. refugee camp, settlement), this dataset will also include
-    total population by year along with population disaggregated by
-    gender and origin country.
+1.  **Refugee Location-Year Population data**: for each refugee location
+    (eg. refugee camp, settlement), this dataset will also include total
+    population by year along with population disaggregated by gender and
+    origin country.
 
-2.  *Uganda refugee settlement shapefiles and population data*: for
+2.  **Uganda refugee settlement shapefiles and population data**: for
     Uganda, shapefiles of refugee settlements over time, along with
     their total population figures for election years, along with
     population disaggregated by origin country.
@@ -127,7 +130,7 @@ Acknowledgements
 
 We are indebted to experts from the United Nations High Commissioner for
 Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore,
-Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Karl
-Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and
-staff members of the Field Information and Coordination Section (FICSS)
-for providing data and guidance.
+Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase,
+Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and
+staff members of the Field Information and Coordination Support Section
+(FICSS) for providing data and guidance.

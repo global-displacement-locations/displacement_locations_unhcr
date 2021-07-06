@@ -46,10 +46,11 @@ cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#0072B2", "#D55E00", "#CC79A7")
 
 # Dataset of Displacement Locations (UNHCR)
 
-This repository contains the data of displacement (IDP, refugee, returnee) locations as featured in:
+This repository contains the data of displacement (IDP, refugee, returnee, asylum seeker) locations as featured in:
 
 Zhou, Yang-Yang and Andrew Shaver. (2021). [Reexamining the Effect of Refugees on Civil Conflict: A Global Subnational Analysis.](https://doi.org/10.1017/S0003055421000502) American Political Science Review, 1-22. doi:10.1017/S0003055421000502
 
+If using this dataset, please cite this paper and acknowledge the UNHCR Field Information and Coordination Support Section (FICSS). 
 
 ## Overview
 
@@ -60,6 +61,7 @@ To construct these data, UNHCR country teams and field staff report the location
 With the help of a team of research assistants, we manually validated and corrected refugee and IDP locations that were open during our study period from 1990--2018. Outside of this time span, we have not made corrections.
 
 Thus, we share this dataset on Github not only to provide researchers with global data on historic and current displacement locations, but also to make this a "living dataset," where experts can send us corrections and where the most updated version is always publicly available. 
+
 
 ## Descriptives
 
@@ -145,11 +147,11 @@ If you would like to submit a correction to the data, go to Issues > New Issue >
 
 We will continue to publicly release related data when they are ready. Here's what we're working on now:
 
-1. *Refugee Location-Year Population data*: for each refugee location (e.g. refugee camp, settlement), this dataset will also include total population by year along with population disaggregated by gender and origin country. 
+1. **Refugee Location-Year Population data**: for each refugee location (eg. refugee camp, settlement), this dataset will also include total population by year along with population disaggregated by gender and origin country. 
 
-2. *Uganda refugee settlement shapefiles and population data*: for Uganda, shapefiles of refugee settlements over time, along with their total population figures for election years, along with population disaggregated by origin country. 
+2. **Uganda refugee settlement shapefiles and population data**: for Uganda, shapefiles of refugee settlements over time, along with their total population figures for election years, along with population disaggregated by origin country. 
 
 ## Acknowledgements 
 
-We are indebted to experts from the United Nations High Commissioner for Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and staff members of the Field Information and Coordination Section (FICSS) for providing data and guidance.
+We are indebted to experts from the United Nations High Commissioner for Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and staff members of the Field Information and Coordination Support Section (FICSS) for providing data and guidance.
 
