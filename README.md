@@ -53,7 +53,7 @@ type and whether they are open or closed as of late 2019/early 2020.
 
 Number of locations by type
 
-![](README_files/figure-markdown_github/map_type-1.png)
+![](README_files/figure-markdown_github/map_type-1.png)![](README_files/figure-markdown_github/map_type-2.png)
 
 Codebook
 --------

@@ -84,11 +84,11 @@ left_join(num_total, num_status) %>%
   rename(Type = type) %>%
   kable(caption="Number of locations by type", "pipe") 
 
-
-
 ```
 
 ```{r map_type, eval=TRUE, fig.width = 10, fig.height = 6}
+
+allsites$status <- as.factor(allsites$status)
 
 allsites.shp <- st_as_sf(x = allsites %>% drop_na(POINT_X, POINT_Y), 
                         coords = c("POINT_X", "POINT_Y"),
@@ -104,6 +104,16 @@ ggplot() +
   theme_classic() + 
   scale_colour_manual(values = cbPalette) + 
   labs(colour = "Location Type") + 
+  theme(legend.position = "bottom")
+
+ggplot() +
+  geom_map(data = WorldData, map = WorldData,
+                  aes(x = long, y = lat, group = group, map_id=region),
+                  fill = "white", colour = "gray20", size=0.5) +
+  geom_sf(data = allsites.shp, aes(colour = status)) +
+  theme_classic() + 
+  scale_colour_manual(values = c("gray40", "blue")) + 
+  labs(colour = "Status Open") + 
   theme(legend.position = "bottom")
 
 ```
