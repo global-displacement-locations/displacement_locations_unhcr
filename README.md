@@ -134,3 +134,10 @@ Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase,
 Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and
 staff members of the Field Information and Coordination Support Section
 (FICSS) for providing data and guidance.
+
+We also thank Zachary Durkee, Nia Gooding, Amy Hu, Caterina Hyneman,
+Jack Jacobs, Karina Martinez, Michael Nachman, Nicholas Nobles, Amanda
+Ostrom, Meghna Ray, Alexander Rounaghi, Jared Solomon, Zach Stevens, and
+Nicholas Woo for excellent research assistance. We owe a special debt of
+gratitude to Joshua Angelo and Lesley Chavez for their assistance with
+expanding and validating the UNHCR dataset.
