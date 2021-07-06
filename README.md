@@ -115,15 +115,10 @@ Coming Soon
 We will continue to publicly release related data when they are ready.
 Here’s what we’re working on now:
 
-1.  **Refugee Location-Year Population data**: for each refugee location
-    (eg. refugee camp, settlement), this dataset will also include total
-    population by year along with population disaggregated by gender and
-    origin country.
-
-2.  **Uganda refugee settlement shapefiles and population data**: for
-    Uganda, shapefiles of refugee settlements over time, along with
-    their total population figures for election years, along with
-    population disaggregated by origin country.
+**Refugee Location-Year Population data**: for each refugee location
+(eg. refugee camp, settlement), this dataset will also include total
+population by year along with population disaggregated by gender and
+origin country.
 
 Acknowledgements
 ----------------
@@ -135,9 +130,10 @@ Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and
 staff members of the Field Information and Coordination Support Section
 (FICSS) for providing data and guidance.
 
-We also thank Zachary Durkee, Nia Gooding, Amy Hu, Caterina Hyneman,
-Jack Jacobs, Karina Martinez, Michael Nachman, Nicholas Nobles, Amanda
-Ostrom, Meghna Ray, Alexander Rounaghi, Jared Solomon, Zach Stevens, and
-Nicholas Woo for excellent research assistance. We owe a special debt of
-gratitude to Joshua Angelo and Lesley Chavez for their assistance with
-expanding and validating the UNHCR dataset.
+We owe a special debt of gratitude to Joshua Angelo and Lesley Chavez
+for their assistance with expanding and validating the UNHCR dataset. We
+also thank the following research assistants from the Political Violence
+Lab: Zachary Durkee, Nia Gooding, Amy Hu, Caterina Hyneman, Jack Jacobs,
+Karina Martinez, Michael Nachman, Nicholas Nobles, Amanda Ostrom, Meghna
+Ray, Alexander Rounaghi, Jared Solomon, Zach Stevens, and Nicholas Woo
+for excellent research assistance.
