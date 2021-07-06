@@ -1,3 +1,5 @@
+README.html
+
 # Created by https://www.toptal.com/developers/gitignore/api/osx,windows,r,latex
 # Edit at https://www.toptal.com/developers/gitignore?templates=osx,windows,r,latex
 
@@ -358,7 +360,7 @@ vignettes/*.pdf
 .httr-oauth
 
 # knitr and R markdown default cache directories
-*_cache/
+*_cache/ 
 /cache/
 
 # Temporary files created by R markdown
@@ -376,7 +378,7 @@ po/*~
 
 ### R.Bookdown Stack ###
 # R package: bookdown caching files
-/*_files/
+# /*_files/
 
 ### Windows ###
 # Windows thumbnail cache files
