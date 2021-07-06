@@ -2,7 +2,7 @@ Dataset of Displacement Locations (UNHCR)
 =========================================
 
 This repository contains the data of displacement (IDP, refugee,
-returnee) locations as featured in:
+returnee, asylum seeker) locations as featured in:
 
 Zhou, Yang-Yang and Andrew Shaver. (2021). [Reexamining the Effect of
 Refugees on Civil Conflict: A Global Subnational

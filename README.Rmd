@@ -112,10 +112,11 @@ ggplot() +
   geom_map(data = WorldData, map = WorldData,
                   aes(x = long, y = lat, group = group, map_id=region),
                   fill = "white", colour = "gray20", size=0.5) +
-  geom_sf(data = allsites.shp, aes(colour = status)) +
+  geom_sf(data = allsites.shp %>% mutate(status = case_when(status == 0~"Closed", status == 1~"Open")),
+          aes(colour = status)) +
   theme_classic() + 
   scale_colour_manual(values = c("#0072B2", "#D55E00")) + 
-  labs(colour = "Status Open") + 
+  labs(colour = "Status") + 
   theme(legend.position = "bottom")
 
 ```
