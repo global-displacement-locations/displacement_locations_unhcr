@@ -50,13 +50,13 @@ This repository contains the data of displacement (IDP, refugee, returnee, asylu
 
 Zhou, Yang-Yang and Andrew Shaver. (2021). [Reexamining the Effect of Refugees on Civil Conflict: A Global Subnational Analysis.](https://doi.org/10.1017/S0003055421000502) American Political Science Review, 1-22. doi:10.1017/S0003055421000502
 
-If using this dataset, please cite this paper and acknowledge the UNHCR Field Information and Coordination Support Section (FICSS). 
+If using this dataset, please cite this paper and acknowledge the UNHCR Operational Data Systems and Support section (ODSS). 
 
 ## Overview
 
-**displacement_locations_unhcr.csv** is a global dataset from the UNHCR Field Information and Coordination Support Section (FICSS). This dataset encompasses the universe of refugee, returnee, IDP, and asylum seeker locations that the UNHCR is aware of (even if they are not actively working in these locations), and it includes historic and currently open sites. The earliest recorded locations are from 1966, and the data was last updated by FICSS on January 6, 2020. 
+**displacement_locations_unhcr.csv** is a global dataset from the UNHCR Operational Data Systems and Support section (ODSS), previously the Field Information and Coordination Support Section (FICSS). This dataset encompasses the universe of refugee, returnee, IDP, and asylum seeker locations that the UNHCR is aware of (even if they are not actively working in these locations), and it includes historic and currently open sites. The earliest recorded locations are from 1966, and the data was last updated by ODSS on January 6, 2020. 
 
-To construct these data, UNHCR country teams and field staff report the location of any known displaced communities to FICSS.
+To construct these data, UNHCR country teams and field staff report the location of any known displaced communities to ODSS.
 
 With the help of a team of research assistants, we manually validated and corrected refugee and IDP locations that were open during our study period from 1990--2018. Outside of this time span, we have not made corrections.
 
@@ -153,7 +153,7 @@ We will continue to publicly release related data when they are ready. Here's wh
 
 ## Acknowledgements 
 
-We are indebted to experts from the United Nations High Commissioner for Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and staff members of the Field Information and Coordination Support Section (FICSS) for providing data and guidance.
+We are indebted to experts from the United Nations High Commissioner for Refugees (UNHCR): Jason Hepps, Ewen Macleod, Léo Martine, Raouf Mazou, Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and staff members of the Field Information and Coordination Support Section (FICSS) / Operational Data Systems and Support section (ODSS) for providing data and guidance.
 
 We owe a special debt of gratitude to Joshua Angelo and Lesley Chavez for their assistance with expanding and validating the UNHCR dataset. We also thank the following research assistants from the Political Violence Lab: Zachary Durkee, Nia Gooding, Amy Hu, Caterina Hyneman, Jack Jacobs, Karina Martinez, Michael Nachman, Nicholas Nobles, Amanda Ostrom, Meghna Ray, Alexander Rounaghi, Jared Solomon, Zach Stevens, and Nicholas Woo for excellent research assistance. 
 

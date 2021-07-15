@@ -11,21 +11,22 @@ Science Review, 1-22.
 <a href="doi:10.1017/S0003055421000502" class="uri">doi:10.1017/S0003055421000502</a>
 
 If using this dataset, please cite this paper and acknowledge the UNHCR
-Field Information and Coordination Support Section (FICSS).
+Operational Data Systems and Support section (ODSS).
 
 Overview
 --------
 
 **displacement_locations_unhcr.csv** is a global dataset from the UNHCR
+Operational Data Systems and Support section (ODSS), previously the
 Field Information and Coordination Support Section (FICSS). This dataset
 encompasses the universe of refugee, returnee, IDP, and asylum seeker
 locations that the UNHCR is aware of (even if they are not actively
 working in these locations), and it includes historic and currently open
 sites. The earliest recorded locations are from 1966, and the data was
-last updated by FICSS on January 6, 2020.
+last updated by ODSS on January 6, 2020.
 
 To construct these data, UNHCR country teams and field staff report the
-location of any known displaced communities to FICSS.
+location of any known displaced communities to ODSS.
 
 With the help of a team of research assistants, we manually validated
 and corrected refugee and IDP locations that were open during our study
@@ -124,11 +125,12 @@ Acknowledgements
 ----------------
 
 We are indebted to experts from the United Nations High Commissioner for
-Refugees (UNHCR): Jason Hepps, Ewen Macleod, Raouf Mazou, Brett Moore,
-Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson, Edgar Scrase,
-Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant, Alex Tyler, and
-staff members of the Field Information and Coordination Support Section
-(FICSS) for providing data and guidance.
+Refugees (UNHCR): Jason Hepps, Ewen Macleod, Léo Martine, Raouf Mazou,
+Brett Moore, Petra Nahmias, Htun Zaw Oo, Yvon Orand, Kimberly Roberson,
+Edgar Scrase, Karl Steinacker, Tayyar Sukru Cansizoglu, Vicky Tennant,
+Alex Tyler, and staff members of the Field Information and Coordination
+Support Section (FICSS) / Operational Data Systems and Support section
+(ODSS) for providing data and guidance.
 
 We owe a special debt of gratitude to Joshua Angelo and Lesley Chavez
 for their assistance with expanding and validating the UNHCR dataset. We
